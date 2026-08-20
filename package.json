@@ -1,0 +1,20 @@
+{
+  "name": "autocloset",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/branwon03/AutoCloset#readme",
+  "bugs": {
+    "url": "https://github.com/branwon03/AutoCloset/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branwon03/AutoCloset.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
