@@ -1,0 +1,10 @@
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+
+# Python & Virtual Environment
+backend/venv/
+backend/__pycache__/
+
+# Environment Variables (CRITICAL!)
+**/.env
