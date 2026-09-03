@@ -2,6 +2,11 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from s3_service import generate_presigned_upload_url
+from database import engine
+import models
+
+# This command tells SQLAlchemy to create the tables in the database
+models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
